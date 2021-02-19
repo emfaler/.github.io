@@ -8,42 +8,65 @@
 
 html {
     font-size: 16px;
-
     margin-top: 3em;
-    text-shadow: white;
-
-
 }
 
-main {
 
-        color: rgb(rgb(95, 6, 91), green, blue);
-
-    
-}
 
 
 h1, 
 h2,
  h3 {
     color: blue;
+    text-align: center;
     
 }
 
 header,
-main, 
-footer {
+main 
+{
     margin: 0 auto;
     max-width: 800px;
+    
 }
 
-body {
-background-image: url(images/Free\ Boston\ Skyline.jpg);
-text-align: center;
-
-
-
+#name {
+    display: flex;
+    justify-content: center;
 }
+
+
+#headShot {
+    padding-right: 5px;
+    height: 35%;
+    width: 35%;
+}
+
+#myBio {
+    
+    height: 412px;
+    width: 320px;
+    
+}
+
+#aboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+h3 {
+    text-align: start;
+}
+
+#languages {
+    padding: 20px;
+}
+
+
+
 
 
 
@@ -79,10 +102,10 @@ nav a:hover {
     background: hotpink;
 }
 
-img {
-    height: 30%;
-    width: 30%;
-    display: flex;
-    justify-content: left;
+footer {
+    text-align: center;
 }
+
+
+    
 
