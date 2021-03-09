@@ -9,11 +9,10 @@
 html {
     font-size: 16px;
     margin-top: 3em;
+
 }
 
-body {
-    background-image: url("\images\boston-skyline-l.jpg"); 
-}
+
 
 
 
@@ -69,12 +68,23 @@ h3 {
 }
 
 #languages {
-    padding: 20px;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+#languagesHeading {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#languagesList {
+    font-size: 25px;
 }
 
 #projects{
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 #projectIcons {
@@ -88,11 +98,30 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
 }
 
+#languageContainer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
 
+#contactInfo {
+    padding-top: 40px;
+
+}
+
+#contactInfoHeading {
+    padding-bottom: 20px;
+}
+
+#contactInfoItems {
+    padding: 20px;
+    font-size: 20px;
+}
 
 
 
@@ -128,11 +157,13 @@ nav a {
 }
  
 nav a:hover {
-    background: hotpink;
+    background:grey;
 }
 
 footer {
     text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 
