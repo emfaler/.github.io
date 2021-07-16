@@ -12,31 +12,46 @@ html {
     background: url(./images/boston-skyline-l.jpg) no-repeat center center fixed ;
     background-size: cover;
 }
-container {
-    background: rgba(65, 66, 66, 0.5);
+
+
+
+
+
+h1 {
+    color: ivory;
+    padding: 1e,;
+   
+    
 }
 
-
-
-h1, h2, h3 {
+h2, h3 {
     color: ivory ;
+    padding-left: 1em;
+    
 }
 main h2 {
     padding-left: 1em;
+    display: flex;
+    justify-content: ;
 }
 
 header,
 main,
 footer {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 850px;
+    /* background: rgba(42, 34, 41, .7); */
 }
 header {
     padding: 5em 0 2em 0; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: none;
+    background: rgba(42, 34, 41, .6);
+    border-bottom-right-radius:  7px;
+    border-bottom-left-radius: 7px;
+
+    
 }
 header h1 {
     font-size: 3em;
@@ -44,21 +59,16 @@ header h1 {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-}
-header span {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    font-size: 1.5em;
-    color: ivory;
+    
 }
 
 
 
 header section img {
     
-    width: 250px;
+    width: 350px;
+    display: flex;
+    border-radius: 7px;
 
 }
 
@@ -70,7 +80,7 @@ nav {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    background-color: rgba(50, 150, 133);
+    background-color: rgb(85, 114, 156);
 }
 nav a {
     padding: .5em 2em;
@@ -87,6 +97,7 @@ section {
 }
 section > p {
     margin: 1em 0;
+    
 }
 section ul {
     padding-left: 1.5em;
@@ -102,12 +113,12 @@ section ul {
 #aboutMe {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background: rgb(50, 150, 133, .8);
+    align-items: right;
     height: auto;
     width: 100%;
     border-radius: 7px;
     padding-bottom: 1em;
+    background: rgba(42, 34, 41, .6)
 }
 #aboutMe p {
     display: flex;
@@ -127,14 +138,25 @@ section ul {
     border-radius: 7px;
     padding: 1em;
 }
+
+#myProjects {
+    /* background: rgb(42, 34, 41); */
+}
 #projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-column-gap: 1em;
+    
+}
+
+#projectIntro {
+    color: ivory;
+    background: rgb(42, 34, 41);
+    padding-left: 1em;
 }
 #projects article {
-    background: rgb(50, 150, 133, .8);
+    background: rgb(42, 34, 41, .6 );
     border-radius: 7px;
     padding: 1em;
     color: ivory;
