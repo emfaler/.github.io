@@ -167,12 +167,25 @@ section ul {
     
 }
 
+#projectHeader {
+    background: rgb(42, 34, 41, .6 );
+    border-radius: 7px;
+    width: 175px;
+
+}
 #contactLink {
     padding: 1em;
     background-color: rgba(183, 222, 245, .5);
     display: flex;
     border-radius: 7px;
 }
+
+#contactHeader {
+    background: rgb(42, 34, 41, .6 );
+    border-radius: 7px;
+    width: 140px;
+}
+
 
 
 footer {
